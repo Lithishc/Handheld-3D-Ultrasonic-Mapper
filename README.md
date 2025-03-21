@@ -45,14 +45,14 @@ cd Handheld-3D-Ultrasonic-Mapper
 ```
 
 ### **2. Flash ESP32 Code**
-- Open `esp32_code.ino` in **Arduino IDE**
+- Open `hardware.ino` in **Arduino IDE**
 - Configure **WiFi credentials** (`ssid` & `password`)
 - Select **ESP32 Dev Module** as the board
 - Compile & upload to the ESP32
 
 ### **3. Run the Python Visualization Script**
 ```bash
-python visualizer.py
+python interfacer.py
 ```
 
 ## Usage
@@ -62,12 +62,12 @@ python visualizer.py
 
 ## Troubleshooting
 ### **ESP32 Not Connecting to WiFi**
-- Ensure correct WiFi credentials in `esp32_code.ino`.
+- Ensure correct WiFi credentials in `hardware.ino`.
 - Restart ESP32 and check the serial monitor.
 
 ### **WebSocket Connection Fails**
 - Ensure ESP32 is running and connected.
-- Verify the WebSocket URL in `visualizer.py`.
+- Verify the WebSocket URL in `interfacer.py`.
 
 ### **Python Errors (Missing Modules)**
 - Ensure dependencies are installed using `pip install -r requirements.txt`.
