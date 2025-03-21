@@ -17,7 +17,7 @@ Adafruit_MPU6050 mpu;
 // HC-SR04 ultrasonic sensor pins
 #define TRIG_TOP_LEFT 12
 #define ECHO_TOP_LEFT 14
-#define TRIG_TOP_RIGHT 27
+#define TRIG_TOP_RIGHT 27git 
 #define ECHO_TOP_RIGHT 26
 #define TRIG_BOTTOM_LEFT 33
 #define ECHO_BOTTOM_LEFT 25
